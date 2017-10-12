@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="action_report_kk">Отчёт КК</string>
+    <string name="action_consumer">Контрагент</string>
+    <string name="last_report">Последний отчёт</string>
+    <string name="nodata">Н/Д</string>
+    <string name="create">Создать</string>
+
+</resources>
