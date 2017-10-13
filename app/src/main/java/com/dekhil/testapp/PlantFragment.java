@@ -60,10 +60,11 @@ public class PlantFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_plant_list, container, false);
 
+        View rec_view = view.findViewById(R.id.list);
         // Set the adapter
-        if (view instanceof RecyclerView) {
-            Context context = view.getContext();
-            RecyclerView recyclerView = (RecyclerView) view;
+        if (rec_view instanceof RecyclerView) {
+            Context context = rec_view.getContext();
+            RecyclerView recyclerView = (RecyclerView) rec_view;
             if (mColumnCount <= 1) {
                 recyclerView.setLayoutManager(new LinearLayoutManager(context));
             } else {

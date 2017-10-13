@@ -7,5 +7,7 @@
     <string name="last_report">Последний отчёт</string>
     <string name="nodata">Н/Д</string>
     <string name="create">Создать</string>
+    <string name="TU">ТУ</string>
+    <string name="Plant">Площадка</string>
 
 </resources>
