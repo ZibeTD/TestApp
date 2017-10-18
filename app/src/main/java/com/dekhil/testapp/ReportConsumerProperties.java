@@ -1,12 +1,13 @@
 package com.dekhil.testapp;
 
+        import android.net.Uri;
         import android.support.v7.app.AppCompatActivity;
         import android.os.Bundle;
         import android.widget.TextView;
 
         import com.dekhil.testapp.dummy.DummyContent;
 
-public class ReportConsumerProperties extends AppCompatActivity implements TUFragment.OnTUListFragmentInteractionListener, PlantFragment.OnPlantListFragmentInteractionListener  {
+public class ReportConsumerProperties extends AppCompatActivity implements TUFragment.OnTUListFragmentInteractionListener, PlantFragment.OnPlantListFragmentInteractionListener, TUList2.OnFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,5 +26,10 @@ public class ReportConsumerProperties extends AppCompatActivity implements TUFra
     public void OnPlantListFragmentInteractionListener(DummyContent.DummyItem item) {
         TextView text = (TextView)findViewById(R.id.plant_list_item_selected);
         text.setText(item.toString());
+    }
+
+    @Override
+    public void onFragmentInteraction(Uri uri) {
+
     }
 }
