@@ -13,4 +13,22 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+        <item>Neptune2</item>
+        <item>Neptune3</item>
+        <item>Neptune4</item>
+        <item>Neptune5</item>
+        <item>Neptune6</item>
+        <item>Neptune7</item>
+        <item>Neptune8</item>
+    </string-array>
+
 </resources>
