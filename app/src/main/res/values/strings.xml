@@ -13,22 +13,24 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string-array name="planets_array">
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Jupiter</item>
-        <item>Saturn</item>
-        <item>Uranus</item>
-        <item>Neptune</item>
-        <item>Neptune2</item>
-        <item>Neptune3</item>
-        <item>Neptune4</item>
-        <item>Neptune5</item>
-        <item>Neptune6</item>
-        <item>Neptune7</item>
-        <item>Neptune8</item>
+    <string-array name="tus_array">
+        <item>Дзержинский ТУ</item>
+        <item>Кстовский ТУ</item>
+        <item>Нижегородский ТУ</item>
+    </string-array>
+
+    <string-array name="plants_array">
+        <item>Plant 1</item>
+        <item>Plant 2</item>
+        <item>Plant 3</item>
+        <item>Plant 4</item>
+        <item>Plant 5</item>
+        <item>Plant 6</item>
+        <item>Plant 7</item>
+        <item>Plant 8</item>
+        <item>Plant 9</item>
+        <item>Plant 10</item>
+
     </string-array>
 
 </resources>

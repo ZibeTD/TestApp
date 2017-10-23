@@ -21,7 +21,17 @@ public class ReportConsumerProperties extends AppCompatActivity implements TUFra
         Spinner spinner = (Spinner) findViewById(R.id.tu_spinner);
 // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.planets_array, android.R.layout.simple_spinner_item);
+                R.array.tus_array, android.R.layout.simple_spinner_item);
+// Specify the layout to use when the list of choices appears
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+// Apply the adapter to the spinner
+        spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener(this);
+
+        spinner = (Spinner) findViewById(R.id.plant_spinner);
+// Create an ArrayAdapter using the string array and a default spinner layout
+        adapter = ArrayAdapter.createFromResource(this,
+                R.array.plants_array, android.R.layout.simple_spinner_item);
 // Specify the layout to use when the list of choices appears
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 // Apply the adapter to the spinner
